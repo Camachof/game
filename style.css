@@ -1,7 +1,28 @@
-div.intro_message {
+.intro_message {
   /*position: relative;*/
   height: 400px;
   z-index: 1;
+  -webkit-transform: translate(0, 0);
+  -webkit-transition: -webkit-transform 500ms;
+
+  transform: translate(0, 0);
+  transition: transform 500ms;
+}
+
+.intro_message.move {
+  -webkit-transform: translate(100px, 100px);
+  transform: translate(100px, 100px);
+}
+
+* { padding: 0; margin: 0; }
+
+canvas {
+  /*background: #eee; display: block; margin: 0 auto;*/
+  display: none;
+}
+
+.appear {
+    background: #eee; display: block; margin: 0 auto;
 }
 
 h1 {
@@ -18,10 +39,6 @@ h3 {
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 1;
-}
-
-#sidewayscanvas {
-  display: none;
 }
 
 img {
