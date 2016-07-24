@@ -1,0 +1,30 @@
+div.intro_message {
+  /*position: relative;*/
+  height: 400px;
+  z-index: 1;
+}
+
+h1 {
+  position: absolute;
+  top: 300px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}
+
+h3 {
+  position: absolute;
+  top: 330px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}
+
+#sidewayscanvas {
+  display: none;
+}
+
+img {
+  position: relative;
+  height: 500px;
+}
