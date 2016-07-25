@@ -2,16 +2,23 @@
   /*position: relative;*/
   height: 400px;
   z-index: 1;
+}
+
+.mouth {
   -webkit-transform: translate(0, 0);
   -webkit-transition: -webkit-transform 500ms;
 
   transform: translate(0, 0);
-  transition: transform 500ms;
+  transition: transform 1000ms;
 }
 
-.intro_message.move {
+.mouth.move {
   -webkit-transform: translate(100px, 100px);
-  transform: translate(100px, 100px);
+  transform: translate(100vw, 0px);
+}
+
+.dissappear {
+  display: none;
 }
 
 * { padding: 0; margin: 0; }
