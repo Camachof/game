@@ -4,6 +4,13 @@
   z-index: 1;
 }
 
+.intro_instructions {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+}
+
 .mouth {
   -webkit-transform: translate(0, 0);
   -webkit-transition: -webkit-transform 500ms;
@@ -17,11 +24,30 @@
   transform: translate(100vw, 0px);
 }
 
+.explanation {
+  /*width: 20%;*/
+  /*border: 30px solid transparent;
+  border-image: url("patty.png") 60 60;
+  border-image-repeat: repeat;*/
+}
+
+.intro_instructions div {
+  width: 20%;
+}
+
+.intro_instructions h3 {
+  text-align: center;
+}
+
 .dissappear {
   display: none;
 }
 
-* { padding: 0; margin: 0; }
+*:not(canvas) {
+  padding: 0;
+  margin: 2%;
+  font-family: "Patrick Hand", cursive;
+}
 
 canvas {
   /*background: #eee; display: block; margin: 0 auto;*/
@@ -32,18 +58,20 @@ canvas {
     background: #eee; display: block; margin: 0 auto;
 }
 
-h1 {
+.title {
   position: absolute;
-  top: 300px;
+  top: 373px;
   left: 50%;
+  font-size: 120px;
   transform: translate(-50%, -50%);
   z-index: 1;
 }
 
-h3 {
+.sub_title {
   position: absolute;
-  top: 330px;
+  top: 436px;
   left: 50%;
+  font-size: 23px;
   transform: translate(-50%, -50%);
   z-index: 1;
 }
