@@ -2,6 +2,7 @@
   /*position: relative;*/
   height: 400px;
   z-index: 1;
+  margin: 2%;
 }
 
 .intro_instructions {
@@ -25,6 +26,8 @@
 }
 
 .explanation {
+  margin-left: 8%;
+  margin-right: 2%;
   /*width: 20%;*/
   /*border: 30px solid transparent;
   border-image: url("patty.png") 60 60;
@@ -43,9 +46,9 @@
   display: none;
 }
 
-*:not(canvas) {
+* {
+  margin: 0;
   padding: 0;
-  margin: 2%;
   font-family: "Patrick Hand", cursive;
 }
 
@@ -60,7 +63,8 @@ canvas {
 
 .title {
   position: absolute;
-  top: 373px;
+  margin: 2%;
+  top: 298px;
   left: 50%;
   font-size: 120px;
   transform: translate(-50%, -50%);
@@ -69,7 +73,8 @@ canvas {
 
 .sub_title {
   position: absolute;
-  top: 436px;
+  margin: 2%;
+  top: 379px;
   left: 50%;
   font-size: 23px;
   transform: translate(-50%, -50%);
@@ -77,6 +82,7 @@ canvas {
 }
 
 img {
+  margin: 2%;
   position: relative;
   height: 500px;
 }
