@@ -25,6 +25,16 @@
   transform: translate(100vw, 0px);
 }
 
+#game_over {
+  position: absolute;
+  margin: 2%;
+  top: 298px;
+  left: 50%;
+  font-size: 120px;
+  transform: translate(-50%, -50%);
+  z-index: 1
+}
+
 .explanation {
   margin-left: 8%;
   margin-right: 2%;
