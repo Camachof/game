@@ -1,15 +1,44 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <link href='https://fonts.googleapis.com/css?family=Patrick+Hand' rel='stylesheet' type='text/css'>
     <meta charset="utf-8">
     <title>oh yeah</title>
-    <style>
-      * { padding: 0; margin: 0; }
-      canvas { background: #eee; display: block; margin: 0 auto; }
-    </style>
-    <canvas id="canvas">
+    <link rel="stylesheet" href="./style.css">
   </head>
   <body>
+
+
+    <div id="intro_message">
+      <img class="mouth" src="http://cliparts.co/cliparts/gce/Akd/gceAkddcd.svg" alt="mouth" />
+      <h1 class="title">GLUTTON</h1>
+      <h3 class="sub_title">Press enter to play!</h3>
+    </div>
+
+    <div id="intro_instructions" class="intro_instructions">
+      <div class="explanation">
+        <h3>
+          It's all about indulgence
+        </h3>
+        <p>
+          Eat all beef paties of equal or smaller size to your mouth. Otherwise, the world will be taken over by a single, giant patty.
+        </p>
+      </div>
+
+      <div class="controls">
+        <h3>
+          Eating is not easy
+        </h3>
+        <p>
+          Use &larr;, &uarr;, &rarr;, &darr; to move around and bounce off the edges. Each movement will make you slightly smaller.
+        </p>
+      </div>
+    </div>
+
+    <img id="game_over" class="dissappear" src="http://www.icone-png.com/png/52/52066.png" alt="" />
+    <canvas id="canvas">
     <script type="application/javascript" src="lib/bundle.js"></script>
+
   </body>
 </html>
