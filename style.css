@@ -36,13 +36,8 @@
 }
 
 .explanation {
-  margin-left: 1%;
-  margin-right: 1%;
-}
-
-.controls {
-  margin-left: 1%;
-  margin-right: 1%;
+  margin-left: 8%;
+  margin-right: 2%;
 }
 
 .intro_instructions div {
@@ -101,13 +96,13 @@ canvas {
   z-index: 1;
 }
 
-.intro_instructions img {
-  height: 100px;
-  width: auto;
-}
-
 img {
   margin: 2%;
   position: relative;
   height: 500px;
+}
+
+.explanation img {
+  margin: 0;
+  height: auto;
 }
