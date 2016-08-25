@@ -1,5 +1,4 @@
 .intro_message {
-  /*position: relative;*/
   height: 400px;
   z-index: 1;
   margin: 2%;
@@ -10,6 +9,7 @@
   flex-direction: row;
   justify-content: center;
   align-items: flex-start;
+  margin-bottom: 2%;
 }
 
 .mouth {
@@ -24,8 +24,6 @@
   -webkit-transform: translate(100px, 100px);
   transform: translate(100vw, 0px);
 }
-
-@keyframes rotate { 100% { transform:rotate(-360deg); } }
 
 #game_over {
   position: absolute;
@@ -70,7 +68,6 @@
 }
 
 canvas {
-  /*background: #eee; display: block; margin: 0 auto;*/
   display: none;
 }
 
@@ -81,7 +78,7 @@ canvas {
 .title {
   position: absolute;
   margin: 2%;
-  top: 298px;
+  top: 265px;
   left: 50%;
   font-size: 120px;
   transform: translate(-50%, -50%);
@@ -91,7 +88,7 @@ canvas {
 .sub_title {
   position: absolute;
   margin: 2%;
-  top: 379px;
+  top: 340px;
   left: 50%;
   font-size: 23px;
   transform: translate(-50%, -50%);
@@ -99,7 +96,7 @@ canvas {
 }
 
 img {
-  margin: 2%;
+  margin: 1%;
   position: relative;
   height: 500px;
 }
