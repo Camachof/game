@@ -105,3 +105,14 @@ img {
   margin: 0;
   height: auto;
 }
+
+.github {
+  position: absolute;
+  bottom: 1%;
+  right: 2%;
+}
+
+.gitImage {
+  height: auto;
+  margin: 0;  
+}
